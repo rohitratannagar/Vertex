@@ -1,0 +1,66 @@
+appName: Vertex
+tagline: "Your AI agent — reason, act, and automate."
+systemPrompt: "You are {{appName}}, an intelligent AI agent. You can reason step-by-step, assist with complex tasks, and provide thorough, actionable responses. Be precise and helpful."
+disclaimer: "{{appName}} can make mistakes. Consider checking important information."
+
+suggestions:
+  - icon: Code
+    title: Write code
+    prompt: "Help me write a function to sort an array of objects by multiple keys"
+  - icon: AutoAwesome
+    title: Brainstorm ideas
+    prompt: "Give me 5 creative project ideas for a portfolio website"
+  - icon: EditNote
+    title: Help me write
+    prompt: "Draft a professional email to request a meeting with a client"
+  - icon: School
+    title: Explain concepts
+    prompt: "Explain how neural networks work in simple terms"
+
+defaultTheme: obsidian
+
+themes:
+  obsidian:
+    label: Obsidian
+    mode: dark
+    primary: "#6366f1"
+    background:
+      default: "#0f0f14"
+      paper: "#16161d"
+    divider: "rgba(255,255,255,0.08)"
+
+  midnight:
+    label: Midnight Ocean
+    mode: dark
+    primary: "#38bdf8"
+    background:
+      default: "#0a1628"
+      paper: "#111d33"
+    divider: "rgba(56,189,248,0.08)"
+
+  ember:
+    label: Ember
+    mode: dark
+    primary: "#f97316"
+    background:
+      default: "#1a0e05"
+      paper: "#261505"
+    divider: "rgba(249,115,22,0.08)"
+
+  forest:
+    label: Forest
+    mode: dark
+    primary: "#22c55e"
+    background:
+      default: "#071209"
+      paper: "#0d1f12"
+    divider: "rgba(34,197,94,0.06)"
+
+  agent-red:
+    label: Agent Red
+    mode: dark
+    primary: "#ef4444"
+    background:
+      default: "#1a0505"
+      paper: "#260a0a"
+    divider: "rgba(239,68,68,0.08)"
